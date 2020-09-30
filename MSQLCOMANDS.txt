@@ -1,0 +1,6 @@
+mysql -u root -p //login 
+
+show databases // show databases
+show tables // show tables
+
+mysql -u root -p < database.sql //open database
