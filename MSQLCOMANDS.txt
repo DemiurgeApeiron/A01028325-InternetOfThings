@@ -2,5 +2,6 @@ mysql -u root -p //login
 
 show databases // show databases
 show tables // show tables
+describe [table] // shows table
 
 mysql -u root -p < database.sql //open database
