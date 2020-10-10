@@ -1,11 +1,11 @@
-<mxfile host="app.diagrams.net" modified="2020-10-10T02:01:40.816Z" agent="5.0 (Macintosh)" etag="hwklpiZuPnTu-6PXZQ7q" version="13.7.9" type="github">
+<mxfile host="app.diagrams.net" modified="2020-10-10T02:03:52.336Z" agent="5.0 (Macintosh)" etag="ccXcW8lt5jYb3La-PiTR" version="13.7.9" type="github">
   <diagram name="Page-1" id="a7904f86-f2b4-8e86-fa97-74104820619b">
-    <mxGraphModel dx="1393" dy="593" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="1100" pageHeight="850" background="#ffffff" math="0" shadow="0">
+    <mxGraphModel dx="1950" dy="830" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="1100" pageHeight="850" background="#ffffff" math="0" shadow="0">
       <root>
         <mxCell id="0" />
         <mxCell id="1" parent="0" />
         <mxCell id="24794b860abc3c2d-17" value="&lt;p style=&quot;margin: 0px ; margin-top: 4px ; text-align: center ; text-decoration: underline&quot;&gt;&lt;b&gt;Control&amp;nbsp; de Luces&lt;/b&gt;&lt;/p&gt;&lt;hr&gt;&lt;p style=&quot;margin: 0px ; margin-left: 8px&quot;&gt;bool lights_in_room&lt;/p&gt;&lt;p style=&quot;margin: 0px ; margin-left: 8px&quot;&gt;int room_ID&lt;/p&gt;&lt;p style=&quot;margin: 0px ; margin-left: 8px&quot;&gt;int intensity&lt;/p&gt;&lt;p style=&quot;margin: 0px ; margin-left: 8px&quot;&gt;Date light_time&lt;/p&gt;&lt;p style=&quot;margin: 0px ; margin-left: 8px&quot;&gt;int register_of_lights&lt;/p&gt;&lt;p style=&quot;margin: 0px ; margin-left: 8px&quot;&gt;&lt;br&gt;&lt;/p&gt;&lt;p style=&quot;margin: 0px ; margin-left: 8px&quot;&gt;&lt;br&gt;&lt;/p&gt;" style="verticalAlign=top;align=left;overflow=fill;fontSize=12;fontFamily=Helvetica;html=1;rounded=0;shadow=0;comic=0;labelBackgroundColor=none;strokeWidth=1" parent="1" vertex="1">
-          <mxGeometry x="140" y="257.5" width="140" height="140" as="geometry" />
+          <mxGeometry x="210" y="257.5" width="140" height="140" as="geometry" />
         </mxCell>
         <mxCell id="1vMcAqGXp4CeMKx0f15Z-10" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0;entryY=0.75;entryDx=0;entryDy=0;verticalAlign=middle;endArrow=none;endFill=0;exitX=1;exitY=0.5;exitDx=0;exitDy=0;" parent="1" source="vEcGuKXlBhVvmT3Uw1EQ-14" target="24794b860abc3c2d-21" edge="1">
           <mxGeometry relative="1" as="geometry">
@@ -18,12 +18,11 @@
         <mxCell id="24794b860abc3c2d-20" value="&lt;p style=&quot;margin: 0px ; margin-top: 4px ; text-align: center ; text-decoration: underline&quot;&gt;&lt;b&gt;Alertas&lt;/b&gt;&lt;/p&gt;&lt;hr&gt;&lt;p style=&quot;margin: 0px ; margin-left: 8px&quot;&gt;bool problem_solve&lt;/p&gt;&lt;p style=&quot;margin: 0px ; margin-left: 8px&quot;&gt;Date time_sent&lt;/p&gt;&lt;p style=&quot;margin: 0px ; margin-left: 8px&quot;&gt;int room_ID&lt;/p&gt;&lt;p style=&quot;margin: 0px ; margin-left: 8px&quot;&gt;varchar(33) situation&lt;/p&gt;" style="verticalAlign=top;align=left;overflow=fill;fontSize=12;fontFamily=Helvetica;html=1;rounded=0;shadow=0;comic=0;labelBackgroundColor=none;strokeWidth=1" parent="1" vertex="1">
           <mxGeometry x="410" y="305" width="140" height="95" as="geometry" />
         </mxCell>
-        <mxCell id="24794b860abc3c2d-48" style="edgeStyle=orthogonalEdgeStyle;rounded=0;html=1;exitX=0;exitY=0.25;entryX=1;entryY=0.75;labelBackgroundColor=none;endArrow=none;endFill=0;endSize=8;fontFamily=Verdana;fontSize=12;align=left;" parent="1" source="24794b860abc3c2d-21" target="24794b860abc3c2d-17" edge="1">
+        <mxCell id="24794b860abc3c2d-48" style="edgeStyle=orthogonalEdgeStyle;rounded=0;html=1;exitX=0;exitY=0.25;entryX=0.75;entryY=1;labelBackgroundColor=none;endArrow=none;endFill=0;endSize=8;fontFamily=Verdana;fontSize=12;align=left;entryDx=0;entryDy=0;" parent="1" source="24794b860abc3c2d-21" target="24794b860abc3c2d-17" edge="1">
           <mxGeometry relative="1" as="geometry">
             <Array as="points">
               <mxPoint x="410" y="490" />
-              <mxPoint x="345" y="490" />
-              <mxPoint x="345" y="315" />
+              <mxPoint x="315" y="490" />
             </Array>
           </mxGeometry>
         </mxCell>
@@ -48,7 +47,7 @@
           <mxGeometry x="370" y="465" width="40" height="20" as="geometry" />
         </mxCell>
         <mxCell id="1vMcAqGXp4CeMKx0f15Z-20" value="1:1" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;" parent="1" vertex="1">
-          <mxGeometry x="280" y="317.5" width="30" height="20" as="geometry" />
+          <mxGeometry x="320" y="400" width="30" height="20" as="geometry" />
         </mxCell>
         <mxCell id="1vMcAqGXp4CeMKx0f15Z-26" value="1:1" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;" parent="1" vertex="1">
           <mxGeometry x="450" y="285" width="30" height="20" as="geometry" />
@@ -70,19 +69,19 @@
           </mxGeometry>
         </mxCell>
         <mxCell id="vEcGuKXlBhVvmT3Uw1EQ-1" value="&lt;p style=&quot;margin: 0px ; margin-top: 4px ; text-align: center ; text-decoration: underline&quot;&gt;&lt;b&gt;Person&lt;/b&gt;&lt;/p&gt;&lt;hr&gt;&lt;p style=&quot;margin: 0px ; margin-left: 8px&quot;&gt;int personal_ID&lt;/p&gt;&lt;p style=&quot;margin: 0px ; margin-left: 8px&quot;&gt;int personal_code&lt;/p&gt;&lt;p style=&quot;margin: 0px ; margin-left: 8px&quot;&gt;int expiration_time&lt;/p&gt;" style="verticalAlign=top;align=left;overflow=fill;fontSize=12;fontFamily=Helvetica;html=1;rounded=0;shadow=0;comic=0;labelBackgroundColor=none;strokeWidth=1" parent="1" vertex="1">
-          <mxGeometry x="360" y="117.5" width="140" height="125" as="geometry" />
+          <mxGeometry x="410" y="117.5" width="140" height="125" as="geometry" />
         </mxCell>
         <mxCell id="vEcGuKXlBhVvmT3Uw1EQ-7" value="1:1" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;" parent="1" vertex="1">
           <mxGeometry x="590" y="160" width="30" height="20" as="geometry" />
         </mxCell>
         <mxCell id="vEcGuKXlBhVvmT3Uw1EQ-10" value="1:*" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;" parent="1" vertex="1">
-          <mxGeometry x="500" y="160" width="30" height="20" as="geometry" />
+          <mxGeometry x="550" y="160" width="30" height="20" as="geometry" />
         </mxCell>
         <mxCell id="vEcGuKXlBhVvmT3Uw1EQ-12" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.5;exitY=1;exitDx=0;exitDy=0;entryX=0.5;entryY=0;entryDx=0;entryDy=0;endArrow=none;endFill=0;" parent="1" source="vEcGuKXlBhVvmT3Uw1EQ-11" target="24794b860abc3c2d-17" edge="1">
           <mxGeometry relative="1" as="geometry" />
         </mxCell>
         <mxCell id="vEcGuKXlBhVvmT3Uw1EQ-11" value="&lt;p style=&quot;margin: 0px ; margin-top: 4px ; text-align: center ; text-decoration: underline&quot;&gt;&lt;b&gt;Lights&lt;/b&gt;&lt;/p&gt;&lt;hr&gt;&lt;p style=&quot;margin: 0px ; margin-left: 8px&quot;&gt;bool lights_on_off&lt;/p&gt;&lt;p style=&quot;margin: 0px ; margin-left: 8px&quot;&gt;Int Light_ID&lt;br&gt;&lt;/p&gt;&lt;p style=&quot;margin: 0px ; margin-left: 8px&quot;&gt;&lt;br&gt;&lt;/p&gt;" style="verticalAlign=top;align=left;overflow=fill;fontSize=12;fontFamily=Helvetica;html=1;rounded=0;shadow=0;comic=0;labelBackgroundColor=none;strokeWidth=1" parent="1" vertex="1">
-          <mxGeometry x="140" y="117.5" width="140" height="65" as="geometry" />
+          <mxGeometry x="210" y="117.5" width="140" height="65" as="geometry" />
         </mxCell>
         <mxCell id="gePmuHFCPySpf_KukdNm-4" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;endArrow=none;endFill=0;entryX=1;entryY=0.5;entryDx=0;entryDy=0;" edge="1" parent="1" source="vEcGuKXlBhVvmT3Uw1EQ-13" target="gePmuHFCPySpf_KukdNm-16">
           <mxGeometry relative="1" as="geometry">
@@ -119,10 +118,10 @@
           <mxGeometry x="660" y="501.25" width="40" height="20" as="geometry" />
         </mxCell>
         <mxCell id="gePmuHFCPySpf_KukdNm-14" value="1:1" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;" vertex="1" parent="1">
-          <mxGeometry x="210" y="237.5" width="30" height="20" as="geometry" />
+          <mxGeometry x="280" y="237.5" width="30" height="20" as="geometry" />
         </mxCell>
         <mxCell id="gePmuHFCPySpf_KukdNm-15" value="1:*" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;" vertex="1" parent="1">
-          <mxGeometry x="210" y="182.5" width="30" height="20" as="geometry" />
+          <mxGeometry x="280" y="182.5" width="30" height="20" as="geometry" />
         </mxCell>
         <mxCell id="gePmuHFCPySpf_KukdNm-16" value="&lt;p style=&quot;margin: 0px ; margin-top: 4px ; text-align: center ; text-decoration: underline&quot;&gt;&lt;b&gt;Camara_in_room&lt;/b&gt;&lt;/p&gt;&lt;hr&gt;&lt;p style=&quot;margin: 0px ; margin-left: 8px&quot;&gt;int room_ID&lt;/p&gt;&lt;p style=&quot;margin: 0px ; margin-left: 8px&quot;&gt;bool in_room&lt;/p&gt;&lt;p style=&quot;margin: 0px ; margin-left: 8px&quot;&gt;int register_cameras&lt;/p&gt;&lt;p style=&quot;margin: 0px ; margin-left: 8px&quot;&gt;varchar(8) stutus&lt;br&gt;&lt;/p&gt;" style="verticalAlign=top;align=left;overflow=fill;fontSize=12;fontFamily=Helvetica;html=1;rounded=0;shadow=0;comic=0;labelBackgroundColor=none;strokeWidth=1" vertex="1" parent="1">
           <mxGeometry x="640" y="410" width="120" height="91.25" as="geometry" />
@@ -170,7 +169,7 @@
           <mxGeometry x="550" y="492.5" width="30" height="20" as="geometry" />
         </mxCell>
         <mxCell id="gePmuHFCPySpf_KukdNm-34" value="1:*" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;" vertex="1" parent="1">
-          <mxGeometry x="500" y="221.25" width="30" height="20" as="geometry" />
+          <mxGeometry x="550" y="221.25" width="30" height="20" as="geometry" />
         </mxCell>
         <mxCell id="gePmuHFCPySpf_KukdNm-37" value="1:1" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;" vertex="1" parent="1">
           <mxGeometry x="550" y="530" width="30" height="20" as="geometry" />
