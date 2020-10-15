@@ -5,3 +5,122 @@ show tables // show tables
 describe [table] // shows table
 
 mysql -u root -p < database.sql //open database
+
+create database [nombre]
+
+use [nombre]
+
+CREATE TABLE [tableName] ([columnName] [dataType],[columnName] [dataType]);
+
+INSERT INTO [tableName] VALUES([value]);
+
+SELECT [table] FROM [database];
+
+DROP TABLE [tableName];
+
+CREATE TABLE myLibrary (
+title VARCHAR(100)
+, author VARCHAR(100)
+, author2 VARCHAR(100)
+, publisher VARCHAR(100)
+, pages INTEGER 
+, publish_date VARCHAR(100)
+, isbn VARCHAR(100)
+, book_language VARCHAR(100)
+)
+
+INSERT INTO myLibrary VALUES (
+"Discovering SQL: A Hands-On Guide for Beginners"
+,"Alex Kriegel"
+,""
+,"Wiley"
+,476
+,"April 7,2008"
+,"978-1-118-00267-4"
+,"English");
+
+// if you want to specify the order
+INSERT INTO myLibrary ( 
+title
+, author
+, book_language
+, publisher
+, pages
+, author2
+, publish_date
+, isbn
+)VALUES (
+"INTRODUCTION TO ALGORITHMS"
+,"THOMAS H. CORMEN"
+,"English"
+,"The MIT Press"
+,1313
+,"CHARLES E. LEISERSON"
+,"2009"
+,"978-0-262-53305-8");
+
+SELECT title
+, author
+, author2
+, publisher
+, pages
+, publish_date
+, isbn
+, book_language
+) FROM myLibrary;
+
+// or 
+SELECT * FROM myLibrary;
+
+// conditional serch
+SELECT * FROM myLibrary WHERE publisher = ‘Wiley’;
+
+// non equal
+SELECT * FROM myLibrary WHERE publisher <>‘Wiley’; 
+
+SELECT * FROM myLibrary WHERE publisher = ‘Wiley’ AND author= ‘Alex Kriegel’;
+
+SELECT * FROM myLibrary WHERE publisher = ‘Wiley’ and pages > 800;
+
+// delete table 
+DELETE FROM myLibrary;
+
+//specific DELETE 
+DELETE FROM myLibrary WHERE publisher = ‘Wiley’;
+
+//alter column 
+ALTER TABLE myLibrary ADD COLUMN book_id INTEGER;
+
+ALTER TABLE myLibrary DROP COLUMN book_id;
+
+ALTER TABLE persons MODIFY IDperson int NOT NULL primary key
+
+//UPDATE Statement
+
+UPDATE myLibrary SET pages = 500;
+
+UPDATE myLibrary SET pages = 500 WHERE isbn=‘978-0470229064’;
+
+UPDATE myLibrary SET pages = 500
+, title = ‘SQL Bible, 2nd Edition’ WHERE isbn=‘978-0470229064’;
+
+The UPDATE operation is implemented in such a way as to allow for using the existing data to be used as a filtering criterion. 
+For instance, you could find the book by its title and change the title in the same query:
+
+UPDATE myLibrary SET title = ‘SQL Bible, 2nd Edition’ WHERE title = ‘SQL Bible’;
+
+Of course, after the data is changed, the preceding query won’t be able to find the same record again using the same WHERE clause criterion.
+The same principle could be applied when the new data you’re supplying includes the exiting data as a component. 
+To add the ‘2nd Edition’ qualifier to ‘SQL Bible’ we do not have to supply the whole string, just the second part of it, 
+and use the concat- enation operator:
+
+UPDATE myLibrary SET title = title + ‘, 2nd Edition’ WHERE title = ‘SQL Bible’;
+
+//primary key
+primary key
+auto_increment
+
+unique 
+foreign key ([atribute]) references [tableFrom] ([atribute])
+
+create Table Termostato (room_ID int unique, termostato_ID int primary key auto_incremet, Estado varchar(13), temperature int, foreign key(room_ID) references Cuarto(room_ID));
