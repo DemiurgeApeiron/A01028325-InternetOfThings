@@ -1,4 +1,4 @@
-<mxfile host="app.diagrams.net" modified="2020-10-15T23:22:40.684Z" agent="5.0 (Macintosh)" etag="sJ6hgStLUK2sbgbICpV8" version="13.8.0" type="github">
+<mxfile host="app.diagrams.net" modified="2020-10-15T23:32:28.482Z" agent="5.0 (Macintosh)" etag="rbavRzACh2lkq8RLaZrY" version="13.8.0" type="github">
   <diagram id="C5RBs43oDa-KdzZeNtuy" name="Page-1">
     <mxGraphModel dx="1699" dy="415" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
       <root>
@@ -71,14 +71,20 @@
         <mxCell id="7qxpXvlb6t2TTMwRAWj1-16" value="Logica y Programa" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="WIyWlLk6GJQsqaUBKTNV-1">
           <mxGeometry x="-40" y="240" width="120" height="40" as="geometry" />
         </mxCell>
-        <mxCell id="7qxpXvlb6t2TTMwRAWj1-21" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0;entryY=0.5;entryDx=0;entryDy=0;startArrow=classic;startFill=1;" edge="1" parent="WIyWlLk6GJQsqaUBKTNV-1" source="7qxpXvlb6t2TTMwRAWj1-18" target="7qxpXvlb6t2TTMwRAWj1-19">
+        <mxCell id="7qxpXvlb6t2TTMwRAWj1-21" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0;entryY=0.5;entryDx=0;entryDy=0;startArrow=classic;startFill=1;" edge="1" parent="WIyWlLk6GJQsqaUBKTNV-1" source="7qxpXvlb6t2TTMwRAWj1-18" target="7qxpXvlb6t2TTMwRAWj1-22">
           <mxGeometry relative="1" as="geometry" />
         </mxCell>
         <mxCell id="7qxpXvlb6t2TTMwRAWj1-18" value="Procesamiento de Datos" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="WIyWlLk6GJQsqaUBKTNV-1">
           <mxGeometry x="440" y="240" width="120" height="40" as="geometry" />
         </mxCell>
+        <mxCell id="7qxpXvlb6t2TTMwRAWj1-23" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=1;entryY=0.5;entryDx=0;entryDy=0;startArrow=classic;startFill=1;" edge="1" parent="WIyWlLk6GJQsqaUBKTNV-1" source="7qxpXvlb6t2TTMwRAWj1-19" target="7qxpXvlb6t2TTMwRAWj1-22">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
         <mxCell id="7qxpXvlb6t2TTMwRAWj1-19" value="Base de Datos" style="whiteSpace=wrap;html=1;aspect=fixed;" vertex="1" parent="WIyWlLk6GJQsqaUBKTNV-1">
-          <mxGeometry x="600" y="200" width="120" height="120" as="geometry" />
+          <mxGeometry x="760" y="200" width="120" height="120" as="geometry" />
+        </mxCell>
+        <mxCell id="7qxpXvlb6t2TTMwRAWj1-22" value="SQL" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="WIyWlLk6GJQsqaUBKTNV-1">
+          <mxGeometry x="600" y="240" width="120" height="40" as="geometry" />
         </mxCell>
       </root>
     </mxGraphModel>
